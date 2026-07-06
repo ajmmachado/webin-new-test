@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.webin.pt/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /

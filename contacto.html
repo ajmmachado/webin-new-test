@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto — Webin</title>
+    <meta name="description" content="Entre em contacto com a Webin. Solicite um orçamento para marketing digital, branding, fotografia, vídeo, drone ou desenvolvimento web. Fale connosco.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Contacto — Webin">
+    <meta property="og:description" content="Entre em contacto com a Webin e solicite um orçamento.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.webin.pt/contacto.html">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,700&f[]=clash-display@500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="nav-header" id="header">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Webin - Página Inicial">
+                <svg width="120" height="28" viewBox="0 0 120 28" fill="none">
+                    <path d="M8 20V8h4.8c3.2 0 5.2 2 5.2 4.8 0 2.8-2 4.8-5.2 4.8H12V20H8zm4-7.6V16h.4c1.2 0 1.6-.8 1.6-1.6 0-.8-.4-2-1.6-2H12zM22 20V8h8v3.2h-4V12.4h3.6v3.2H26V16.8h4V20H22zM36 20V8h8v3.2h-4V12.4h3.6v3.2H40V16.8h4V20H36zM50 20l-4-12h4l2 7.2 2-7.2h4l-4 12H50zM68 20V8h8v3.2h-4V12.4h3.6v3.2H72V16.8h4V20H68zM82 20V8h4.8c3.2 0 5.2 2 5.2 4.8 0 2.8-2 4.8-5.2 4.8H86V20h-4zm4-7.6V16h.4c1.2 0 1.6-.8 1.6-1.6 0-.8-.4-2-1.6-2H86zM96 20V8h8v3.2h-4V12.4h3.6v3.2H100V16.8h4V20H96zM110 20V8h4l4 8.8V8h4v12h-4l-4-8.8V20h-4z" fill="currentColor"/>
+                </svg>
+            </a>
+            <nav class="nav-menu" aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+                    <li><a href="servicos.html" class="nav-link">Serviços</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contacto.html" class="nav-link active nav-cta">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <span class="section-label">Contacto</span>
+                        <h1 class="page-title">Vamos conversar <br>sobre o seu projeto.</h1>
+                        <p class="contact-intro">Preencha o formulário ou envie-nos um email diretamente. Respondemos em menos de 24 horas úteis.</p>
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <strong>Email</strong>
+                                <p>geral@webin.pt</p>
+                            </div>
+                            <div class="contact-detail-item">
+                                <strong>Telefone</strong>
+                                <p>+351 210 000 000</p>
+                            </div>
+                            <div class="contact-detail-item">
+                                <strong>Morada</strong>
+                                <p>Av. da Liberdade, 245, 4º Andar<br>1250-143 Lisboa, Portugal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="nome">Nome *</label>
+                                <input type="text" id="nome" name="nome" required placeholder="O seu nome completo">
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa">Empresa</label>
+                                <input type="text" id="empresa" name="empresa" placeholder="Nome da sua empresa">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required placeholder="geral@exemplo.pt">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" id="telefone" name="telefone" placeholder="+351 9XX XXX XXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="servico">Serviço Pretendido *</label>
+                                <select id="servico" name="servico" required>
+                                    <option value="" disabled selected>Selecione uma opção</option>
+                                    <option value="Estratégia Digital">Estratégia Digital</option>
+                                    <option value="Marketing Digital">Marketing Digital</option>
+                                    <option value="Branding">Branding</option>
+                                    <option value="Desenvolvimento Web">Desenvolvimento Web</option>
+                                    <option value="Gestão de Redes Sociais">Gestão de Redes Sociais</option>
+                                    <option value="Fotografia Profissional">Fotografia Profissional</option>
+                                    <option value="Produção de Vídeo">Produção de Vídeo</option>
+                                    <option value="Drone">Drone</option>
+                                    <option value="Produção de Conteúdo">Produção de Conteúdo</option>
+                                    <option value="Vários Serviços">Vários Serviços</option>
+                                </select>
+                            </div>
+                            <div class="form-group form-group--full">
+                                <label for="mensagem">Mensagem *</label>
+                                <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Conte-nos sobre o seu projeto, objetivos e como podemos ajudar."></textarea>
+                            </div>
+                            <div class="form-group form-group--full">
+                                <button type="submit" class="btn btn-primary btn-submit">Enviar Pedido</button>
+                            </div>
+                            <div class="form-message" id="formMessage" aria-live="polite"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo" aria-label="Webin">
+                        <svg width="100" height="24" viewBox="0 0 120 28" fill="none">
+                            <path d="M8 20V8h4.8c3.2 0 5.2 2 5.2 4.8 0 2.8-2 4.8-5.2 4.8H12V20H8zm4-7.6V16h.4c1.2 0 1.6-.8 1.6-1.6 0-.8-.4-2-1.6-2H12zM22 20V8h8v3.2h-4V12.4h3.6v3.2H26V16.8h4V20H22zM36 20V8h8v3.2h-4V12.4h3.6v3.2H40V16.8h4V20H36zM50 20l-4-12h4l2 7.2 2-7.2h4l-4 12H50zM68 20V8h8v3.2h-4V12.4h3.6v3.2H72V16.8h4V20H68zM82 20V8h4.8c3.2 0 5.2 2 5.2 4.8 0 2.8-2 4.8-5.2 4.8H86V20h-4zm4-7.6V16h.4c1.2 0 1.6-.8 1.6-1.6 0-.8-.4-2-1.6-2H86zM96 20V8h8v3.2h-4V12.4h3.6v3.2H100V16.8h4V20H96zM110 20V8h4l4 8.8V8h4v12h-4l-4-8.8V20h-4z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <p class="footer-tagline">Estúdio criativo. Lisboa, Portugal.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4 class="footer-heading">Menu</h4>
+                    <ul>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4 class="footer-heading">Serviços</h4>
+                    <ul>
+                        <li>Estratégia Digital</li>
+                        <li>Branding</li>
+                        <li>Desenvolvimento Web</li>
+                        <li>Fotografia</li>
+                        <li>Vídeo &amp; Drone</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="footer-heading">Contacto</h4>
+                    <p>geral@webin.pt<br>+351 210 000 000</p>
+                    <p>Lisboa, Portugal</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Webin. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos e Condições</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
